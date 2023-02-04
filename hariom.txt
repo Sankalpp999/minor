@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<style>
+		table{
+			border-collapse: collapse;
+			width: 50%;   
+		}
+	th,td{
+		border: 1px solid black; 
+		padding: 15px;
+	}
+			 
+	</style>
+  </head>
+<body>
+  <h1>Order Details</h1>
+  <table>
+	<tr>
+		<th>Customer Name</th>
+		<th>Order no.</th>
+		<th>Drink</th>
+	</tr>
+	<tr>
+		<td>Rishabh</td>
+		<td>768</td>
+		<td>Coffee</td>
+	</tr>
+	<tr>
+		<td>Avinash</td>
+		<td>769</td>
+		<td>Milk</td>
+	</tr>
+	<tr>
+		<td>Animesh</td>
+		<td>780</td>
+		<td>Tea</td>
+	</tr>
+</table>
+</body>
+</html>
